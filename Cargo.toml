@@ -1,9 +1,16 @@
 [package]
-name = "fuckmaker"
+name = "fckmaker"
 version = "0.1.0"
-authors = ["uzkbwza <uzkbwza@protonmail.com>"]
+authors = ["Ian Sly <ivysly@protonmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+num = "0.4"
+
+[dev-dependencies]
+text_io = "0.1"
+
+[profile.release]
+debug = true
