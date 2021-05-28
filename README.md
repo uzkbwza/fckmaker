@@ -4,6 +4,7 @@ implementations of common "tape" layouts already made for the user.
 
 ## Example Usage
 Here is my implementation of a performance-naive Brainfuck interpreter. Use `cargo run --example bf` to run.
+
     use std::io::{stdout, Write};
     use text_io::read;
     use fckmaker::{Interpreter, Index, tape_model::*};
