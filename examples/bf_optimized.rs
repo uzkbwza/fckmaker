@@ -1,7 +1,7 @@
 use std::fs;
 use std::io::{stdout, Write};
 use text_io::read;
-use fckmaker::{Interpreter, model::*};
+use fckmaker::{Interpreter, tape_model::*};
 
 
 #[derive(Debug, Clone, Copy)]

@@ -1,9 +1,9 @@
 # fckmaker
-Fckmaker is a library with tools for easily creating and interpreting brainfuck-like tape-based languages, with 
+Fckmaker is a library I am making for myself, with tools for easily creating and interpreting brainfuck-like tape-based languages, with 
 implementations of common "tape" layouts already made for the user.
 
 ## Example Usage
-Here we implement a performance-naive Brainfuck interpreter. Use `cargo run --example bf` to run.
+Here is my implementation of a performance-naive Brainfuck interpreter. Use `cargo run --example bf` to run.
     use std::io::{stdout, Write};
     use text_io::read;
     use fckmaker::{Interpreter, Index, tape_model::*};
@@ -115,5 +115,5 @@ TODO:
 * Handle errors better.
 * Make interpreter implementation smarter and easier.
 * Benchmark and optimize different tape structures.
-* Add 2d tape implementation for langs like e.g. Befunge
-  * Research and implement other tape layouts.
+* Add 2d program implementation for langs like e.g. Befunge
+  * Research and implement other program/tape layouts.
